@@ -8,7 +8,7 @@ function agregarAmigo() {
 
     // Agregar el nombre a la lista usando el método push
     if (nombreAmigo === '') {
-        alert('Ingresa el nombre de un amigo');
+        alert('Ingresa un nombre');
         return;
     }
 
@@ -27,7 +27,7 @@ function agregarAmigo() {
 function sortearAmigo() {
     // Verificar si hay amigos en la lista
     if (listaAmigos.length === 0) {
-        alert('No hay nombres de amigos en la lista para sortear.');
+        alert('No hay amigos en la lista para sortear.');
         return;
     }
 
